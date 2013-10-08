@@ -7,5 +7,6 @@
                  [ring "1.2.0"]
                  [compojure "1.1.5"]
                  [com.stuartsierra/flow "0.1.0"]
-                 [cheshire "5.2.0"]]
+                 [cheshire "5.2.0"]
+                 [org.clojure/tools.cli "0.2.4"]]
   :main nephrite.main)
