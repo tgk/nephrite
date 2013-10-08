@@ -21,7 +21,6 @@
     (when (re-matches #".*\.jade$" uri)
       (let [jade-file (str folder "/" uri)
             jade-data (or (json-data folder uri) {})]
-        (println jade-data)
         {:status 200
          :body (jade/render jade-file jade-data)}))))
 
