@@ -8,7 +8,9 @@ towards the base folder of your jade and resource files. It then servers
 the translated jade files, feeding them with data from the `_data`
 folder in the same base directory.
 
-The example project included with the source of the projects demonstrates how the files must be organised. The file structure is as follows:
+The example project included with the source of the projects
+demonstrates how the files must be organised. The file structure is as
+follows:
 
 ```
 index.jade          The jade file
@@ -17,6 +19,10 @@ _data/index.json    The data used to feed into index.jade
 ```
 
 Any non-jade files will be served statically.
+
+nephrite uses [clj-jade](https://github.com/ryangreenhall/clj-jade) by
+Ryan Greenhall for generating html from jade files. It integrates quite
+nicely with in Clojure projects.
 
 ## Usage
 
