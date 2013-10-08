@@ -1,5 +1,7 @@
 # nephrite
 
+![Lovely nephrite](https://raw.github.com/tgk/nephrite/master/example/nephrite.jpg)
+
 A Clojure library designed to help design jade templates with as little
 hassle as possible. The idea is, you execute the app and point it
 towards the base folder of your jade and resource files. It then servers
