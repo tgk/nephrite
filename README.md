@@ -9,11 +9,11 @@ the translated jade files, feeding them with data from the `_data`
 folder in the same base directory.
 
 The example project included with the source of the projects
-demonstrates how the files must be organised. The file structure is as
-follows:
+demonstrates how the files can be organised to be found by nephrite. The
+file structure is as follows:
 
 ```
-index.jade          The jade file
+index.jade          A jade file
 nephrite.jpg        A lovely image
 _data/index.json    The data used to feed into index.jade
 ```
@@ -21,8 +21,7 @@ _data/index.json    The data used to feed into index.jade
 Any non-jade files will be served statically.
 
 nephrite uses [clj-jade](https://github.com/ryangreenhall/clj-jade) by
-Ryan Greenhall for generating html from jade files. It integrates quite
-nicely with in Clojure projects.
+Ryan Greenhall for generating html from jade files.
 
 ## Usage
 
@@ -52,6 +51,6 @@ and run the jar directly from the command line
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Thomas G. Kristensen
 
 Distributed under the Eclipse Public License, the same as Clojure.
